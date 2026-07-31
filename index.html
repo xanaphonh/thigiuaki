@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xanaphonh | Supercars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cars.css" />
+</head>
+<body class="cars-page">
+  <header class="site-header">
+    <a class="brand" href="index.html">Xanaphonh</a>
+    <nav>
+      <a class="active" href="index.html">Car</a>
+      <a href="about.html">About</a>
+      <a href="movie.html">Movie</a>
+    </nav>
+    <button class="pill">NTTU</button>
+  </header>
+
+  <main class="car-stage">
+    <div class="big-model-name" id="bigModelName"></div>
+
+    <img id="carImage" class="car-image" src="ferrari-sf90.png" alt="Selected car" />
+
+    <div id="hotspots" class="hotspots"></div>
+
+    <section class="car-meta">
+      <span id="carBrand">Ferrari</span>
+      <strong id="carModel">SF90</strong>
+    </section>
+
+    <button id="nextCar" class="next-button">
+      <span>Next</span>
+      <span class="arrow">›</span>
+    </button>
+  </main>
+
+  <div id="detailOverlay" class="detail-overlay" aria-hidden="true">
+    <div class="detail-visual">
+      <img id="detailHero" src="ferrari-tail-hero.png" alt="">
+      <button class="close-detail" id="closeDetail" aria-label="Close">×</button>
+    </div>
+    <aside class="detail-card">
+      <div class="detail-card-top">
+        <h2 id="detailTitle">Tails lights</h2>
+        <span class="horse">♞</span>
+      </div>
+      <img id="detailImage" class="detail-image" src="ferrari-tail.png" alt="">
+      <p id="detailText"></p>
+      <button id="goBack" class="go-back">Go back</button>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
