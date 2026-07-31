@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xanaphonh | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body class="about-page">
+  <header class="site-header">
+    <a class="brand" href="index.html">Xanaphonh</a>
+    <nav>
+      <a href="index.html">Car</a>
+      <a class="active" href="about.html">About</a>
+      <a href="movie.html">Movie</a>
+    </nav>
+    <button class="pill">NTTU</button>
+  </header>
+
+  <main class="about-wrap">
+    <section class="about-intro">
+      <p class="eyebrow">ABOUT ME</p>
+      <h1>I LIVE FOR<br><span>SUPERCARS</span><br>& ACTION.</h1>
+      <p class="lead">
+        I am someone who is passionate about supercars, especially the details that make
+        each car unique — the shape, headlights, tail lights, interior, sound and overall
+        personality. I also enjoy action movies because I like speed, energy, dramatic
+        scenes and memorable characters.
+      </p>
+      <div class="about-links">
+        <a href="index.html">My cars</a>
+        <a href="movie.html">My favorite movie</a>
+      </div>
+    </section>
+
+    
+    <!-- MY PHOTO -->
+    <section class="my-photo" id="openProfile" role="button" tabindex="0" aria-label="Open personal information">
+      <img src="my-photo.jpg" alt="My Photo">
+      <div class="photo-text">
+        <span>ABOUT</span>
+        <h2>XANAPHONH</h2>
+      </div>
+    </section>
+
+    <section class="about-cards">
+      <article>
+        <span>01</span>
+        <h3>Personal Information</h3>
+        <p>Status: Student<br>
+ Date of birth: 13/11/2005<br>
+University: NTTU<br>
+Major: Software Engineering<br></p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>INTERESTS</h3>
+        <p>Supercars — Ferrari, Audi, Lamborghini...<br>
+Movies — Action & Superhero Movies<br>
+Design — Web & UI/UX Design<br></p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Contact</h3>
+        <p>+ Facebook: Xanaphonh Inthalngsy<br>
+Íntagram: Black_xnp<br>
+Gmail: sanaphonmax@gmail.com<br>
+tel: 0799458648<br></p>
+      </article>
+    </section>
+  </main>
+
+  <!-- PERSONAL INFORMATION MODAL -->
+  <div class="profile-modal" id="profileModal" aria-hidden="true">
+    <div class="profile-backdrop" id="profileBackdrop"></div>
+
+    <section class="profile-card">
+      <button class="profile-close" id="profileClose" aria-label="Close">×</button>
+
+      <div class="profile-photo">
+        <img src="my-photo.jpg" alt="Xanaphonh">
+      </div>
+
+      <div class="profile-content">
+        <p class="profile-small">PERSONAL PROFILE</p>
+        <h2>XANAPHONH</h2>
+
+        <p>
+          I am a person who is passionate about supercars, modern design and action movies.
+          I especially enjoy exploring the details that make each car unique, such as the
+          headlights, tail lights, interior, body shape and overall performance style.
+        </p>
+
+        <p>
+          In my free time, I like watching action movies, learning about car design and
+          creating visual projects that combine cars, movies and web design.
+        </p>
+
+        <div class="profile-grid">
+          <div>
+            <span>INTEREST</span>
+            <strong>Supercars</strong>
+          </div>
+
+          <div>
+            <span>FAVORITE GENRE</span>
+            <strong>Action Movies</strong>
+          </div>
+
+          <div>
+            <span>PROJECT STYLE</span>
+            <strong>Dark / Modern</strong>
+          </div>
+
+          <div>
+            <span>FAVORITE CAR TYPE</span>
+            <strong>Performance Cars</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="about.js"></script>
+
+</body>
+</html>
